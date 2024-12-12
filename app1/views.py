@@ -36,3 +36,8 @@ def signup(request):
             
     return render(request,'signup.html')
 
+
+def Logout(request):
+    logout(request)
+    return redirect('login')
+
