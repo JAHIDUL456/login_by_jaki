@@ -3,12 +3,12 @@ from django.shortcuts import render
 # Create your views here.
 
 def hompage(request):
-    pass
+    return render(request,'home.html')
 
 
 def login(request):
-    pass
+    return render(request,'login.html')
 
 def signup(request):
-    pass
+    return render(request,'signup.html')
 
